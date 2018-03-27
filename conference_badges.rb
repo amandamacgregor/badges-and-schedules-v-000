@@ -12,7 +12,7 @@ end
 end
 
 def assign_rooms(attendees)
-(attendees).each_with_index { |attendee, index|
+(attendees).each_with_index do |attendee, index|
   "Hello, #{attendee}! You'll be assigned to room #{index+1}!"
 }
 hash   #=> {"cat"=>0, "dog"=>1, "wombat"=>2}
