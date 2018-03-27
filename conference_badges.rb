@@ -17,3 +17,5 @@ def assign_rooms(attendees)
   end
 # hash   #=> {"cat"=>0, "dog"=>1, "wombat"=>2}
 end
+
+def print
