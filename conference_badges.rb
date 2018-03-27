@@ -6,6 +6,6 @@ def badge_maker(name)
   "Hello, my name is #{name}."
 end
 
-def batch_badge_creator(badges)
+def batch_badge_creator(attendees)
   badges.each{ |badge| "Hello, my name is #{badge}."}
 end
