@@ -13,4 +13,3 @@ end
 def batch_badge_creator(attendees)
 (attendees).collect { "Hello, my name is #{attendee}."}
 end
-end
