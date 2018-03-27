@@ -18,4 +18,4 @@ def assign_rooms(attendees)
 # hash   #=> {"cat"=>0, "dog"=>1, "wombat"=>2}
 end
 
-def print
+def printer(attendees)
