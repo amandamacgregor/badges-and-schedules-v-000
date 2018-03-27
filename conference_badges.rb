@@ -8,12 +8,12 @@ end
 def batch_badge_creator(attendees)
 (attendees).map do |attendee|
   "Hello, my name is #{attendee}."
-end
+  end
 end
 
 def assign_rooms(attendees)
 (attendees).map.each_with_index do |attendee, index|
   "Hello, #{attendee}! You'll be assigned to room #{index+1}!"
-end
+  end
 # hash   #=> {"cat"=>0, "dog"=>1, "wombat"=>2}
 end
