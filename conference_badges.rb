@@ -10,5 +10,5 @@ end
 # end
 
 def batch_badge_creator(attendees)
-(attendees).collect { "Hello, my name is #{name}."}
+(attendees).map do { "Hello, my name is #{name}."}
 end
