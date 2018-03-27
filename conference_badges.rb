@@ -9,3 +9,7 @@ end
 # def batch_badge_creator(attendees)
 #   attendees.each{ |attendee| puts "Hello, my name is #{attendee}."}
 # end
+
+def batch_badge_creator(attendees)
+(attendees).collect { "cat"  }
+end
