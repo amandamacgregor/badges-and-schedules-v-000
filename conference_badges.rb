@@ -10,3 +10,10 @@ def batch_badge_creator(attendees)
   "Hello, my name is #{attendee}."
 end
 end
+
+def assign_rooms(attendees)
+(attendees).each_with_index { |attendees, index|
+  hash[item] = index
+}
+hash   #=> {"cat"=>0, "dog"=>1, "wombat"=>2}
+end
